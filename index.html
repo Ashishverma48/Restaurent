@@ -1,55 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurent</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/f5b6191954.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurent</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://kit.fontawesome.com/f5b6191954.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <ul class="flex">
+      <li><i class="fa-solid fa-mobile-screen-button"></i> +91 8833377777</li>
+      <li><i class="fa-regular fa-clock"></i> Mon-Sat: 11:00AM - 23:00PM</li>
+    </ul>
+    <nav class="flex">
+      <div class="home">
+        <a href="#">Delicious</a>
+      </div>
       <ul class="flex">
-        <li><i class="fa-solid fa-mobile-screen-button"></i> +91 8833377777</li>
-        <li><i class="fa-regular fa-clock"></i> Mon-Sat: 11:00AM - 23:00PM</li>
-      </ul>
-      <nav class="flex">
-        <div class="home">
-          <a href="#">Delicious</a>
-        </div>
-        <ul class="flex">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Specials</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Chefs</a></li>
-          <li><a href="#">Gallary</a></li>
-          <li class="main-drop"><a href="#">Drop Down <i class="fa-solid fa-angle-down"></i></a>
-            <ul class="drop flex">
-                <li><a href="#">Drop Down 1</a></li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li class="drop-left"><a href="#">Drop Down Down <i class="fa-solid fa-angle-right"></i></a>
-                
-                <ul class="last-down">
-                    <li><a href="#">Drop Down</a></li>
-                    <li><a href="#">Drop Down</a></li>
-                    <li><a href="#">Drop Down</a></li>
-                    <li><a href="#">Drop Down</a></li>
-                    <li><a href="#">Drop Down</a></li>
-                </ul></li>
-                <li><a href="#">Drop Down 4</a></li>
-                <li><a href="#">Drop Down 5</a></li>
-            </ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#special">Specials</a></li>
+        <li><a href="#event">Events</a></li>
+        <li><a href="#gallary">Gallary</a></li>
+        <li><a href="#chefs">Chefs</a></li>
+        <li class="main-drop">
+          <a href="#">Drop Down <i class="fa-solid fa-angle-down"></i></a>
+          <ul class="drop flex">
+            <li><a href="#">Drop Down 1</a></li>
+            <li><a href="#">Drop Down 2</a></li>
+            <li class="drop-left">
+              <a href="#">Drop Down Down <i class="fa-solid fa-angle-right"></i></a>
+
+              <ul class="last-down">
+                <li><a href="#">Drop Down</a></li>
+                <li><a href="#">Drop Down</a></li>
+                <li><a href="#">Drop Down</a></li>
+                <li><a href="#">Drop Down</a></li>
+                <li><a href="#">Drop Down</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Drop Down 4</a></li>
+            <li><a href="#">Drop Down 5</a></li>
+          </ul>
         </li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#"><button>Book a table</button></a></li>
-        </ul>
-      </nav>
-    </header>
-  </body>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <a href="#"><button>Book a table</button></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="content flex">
+      <div class="flex">
+        <h1>Delicious Restaurent</h1>
+        <p>
+          Sit amet consectetur adipisicing elit. Enim aperiam fuga esse
+          officiis odio cquatur necessitatibus reprehenderit, pariatur
+          voluptates architecto ab quaerat. Voluptates inventore a optio
+          voluptatem nostrum natus nihil reprehenderit ratione tempora.
+          Itaque, sint .
+        </p>
+        <div class="flex">
+          <button>OUR MENU</button><button>BOOK A TABLE</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="about flex" id="about">
+      <div><img src="./img/about.jpg" alt="" /></div>
+      <div class="flex about-right">
+        <h2>
+          Eum ipsam laborum deleniti
+          <span>velit pariatur architecto aut nihil</span>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+          aute irure dolor in reprehenderit Lorem ipsum dolor sit amet
+          consectetur adipisicing.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div>
+          <div><i class="fa-sharp fa-solid fa-check-double"></i></div>
+          <div>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+        <div>
+          <div><i class="fa-sharp fa-solid fa-check-double"></i></div>
+          <div>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+          </div>
+        </div>
+        <div>
+          <div><i class="fa-sharp fa-solid fa-check-double"></i></div>
+          <div>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate trideta
+              storacalaperda mastiro dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
+        </div>
+        <p>
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore
+          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="flex why-choose">
+          <h2>Why choose <span>Our Restaurent </span></h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            adipisci labore deserunt debitis. Dicta praesentium sint in, fuga
+            impedit eum!
+          </p>
+          <div>
+            <div>
+              <h2>01</h2>
+              <h3>Best food</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
+                rerum sapiente adipisci, ducimus unde architecto.
+              </p>
+            </div>
+            <div>
+              <h2>02</h2>
+              <h3>Free Delivery</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
+                rerum sapiente adipisci, ducimus unde architecto.
+              </p>
+            </div>
+            <div>
+              <h2>03</h2>
+              <h3>Exiting Offer</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet
+                rerum sapiente adipisci, ducimus unde architecto.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="menu flex" id="menu">
+          <h2>Check Our Tasty <span>Menu</span></h2>
+          <div class="btn flex">
+            <button>Show All</button>
+            <button>Starters</button>
+            <button>Salads</button>
+            <button>Specialty</button>
+          </div>
+          <div class="flex menu-box">
+            <div>
+              <div>
+                <h4>Labster Bisque</h4>
+
+                <h4>$5.78</h4>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>
+              <div>
+                <h4>Bread Barrel</h4>
+
+                <h4>$6.88</h4>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>
+              <div>
+                <h4>Crab Cake</h4>
+
+                <h4>$7.88
+              </div>
+              <p>A delicate crab cake served on a toasted roll with lettuce and tartar sauce</p>
+            </div>
+            <div>
+              <div>
+                <h4>Caeser Selections</h4>
+
+                <h4>$8.55</h4>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>
+              <div>
+                <h4>Tuction Grilled</h4>
+
+                <h4>$9.87</h4>
+              </div>
+              <p>Grilled chicken with provolone, artichoke hearts, and roasted red pesto</p>
+            </div>
+            <div>
+              <div>
+                <h4>Mozella Stick</h4>
+
+                <h4>$5.32</h4>
+              </div>
+              <p>Lorem, deren, trataro, filede, nerada</p>
+            </div>
+            <div>
+              <div>
+                <h4>Greel Salad</h4>
+
+                <h4>$9.87</h4>
+              </div>
+              <p>Fresh spinach, crisp romaine, tomatoes, and Greek olives</p>
+            </div>
+            <div>
+              <div>
+                <h4>Spanish Salad</h4>
+
+                <h4>$8.66</h4>
+              </div>
+              <p>Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="special flex" id="special">
+          <h2>Check Our <span>Special</span></h2>
+          <P>Lorem ipsum dolor sit amet, consectetur hello ouehhdd adipisicing elit. Quo necessitatibus distinctio autem
+            eaque ut at officia saepe?</P>
+          <div class="spl-detail flex">
+            <div>
+              <a href="#!">Breakfast </a>
+              <a href="#!">Lunch</a>
+              <a href="#!">Dinner</a>
+              <a href="#!">Fassfood</a>
+              <a href="#!">Party</a>
+            </div>
+            <div>
+              <h3>Architecto ut aperiam autem id</h3>
+              <p>Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona
+                marka</p>
+              <p>Et nobis maiores eius. Voluptatibus uat enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit
+                magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil.
+                Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+            </div>
+            <div>
+              <img src="./img/specials-4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="event-main flex" id="event">
+      <div class="container event flex">
+        <h2>Organize your <span>Event</span> in our Restaurent</h2>
+        <div>
+          <div>
+            <img src="./img/event-birthday.jpg" alt="">
+          </div>
+          <div class="event-right flex">
+            <h3>Birthday Parties</h3>
+            <h2>$210</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nemo eum at corporis delectus
+              expedita.</p>
+            <div><i class="fa-regular fa-circle-check"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div><i class="fa-regular fa-circle-check"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div><i class="fa-regular fa-circle-check"></i>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+            <p>consectetur adipisicing elit. Repudiandae quasi possimus esse dicta, sequi, eligendi voluptates commodi
+              maxime omnis nulla ab qui nesciunt at ipsa!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container table flex">
+        <h2>Book a <span>Table</span></h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus eius officiis laborum dolor ea aliquam
+          inventore accusantium enim ab?</p>
+        <div class="book-table ">
+          <form action="" class="table-form">
+            <div>
+              <input type="text" placeholder="Your Name" name="name">
+              <input type="email" placeholder="Your Email" name="email">
+              <input type="text" placeholder="Your Phone" name="number">
+            </div>
+            <div>
+              <input type="text" placeholder="Date" name="date">
+              <input type="text" placeholder="Time" name="time">
+              <input type="number" placeholder="# of people">
+
+            </div>
+            <textarea name="" id="" cols="30" rows="9" placeholder="Massage" name="Massage"></textarea>
+            <button>Send Massage</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="gallary flex" id="gallary">
+      <h2>Some photos from <span>Our Restaurent</span></h2>
+      <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+        autem.</p>
+      <div>
+        <div><img src="./img/gallery/gallery-1.jpg" alt=""></div>
+        <div><img src="./img/gallery/gallery-2.jpg" alt=""></div>
+        <div><img src="./img/gallery/gallery-3.jpg" alt=""></div>
+        <div><img src="./img/gallery/gallery-4.jpg" alt=""></div>
+        <div><img src="./img/gallery/gallery-5.jpg" alt=""></div>
+        <div><img src="./img/gallery/gallery-6.jpg" alt=""></div>
+        <div><img src="./img/gallery/gallery-7.jpg" alt=""></div>
+        <div><img src="./img/gallery/gallery-8.jpg" alt=""></div>
+      </div>
+    </section>
+    <section >
+      <div class="container chefs-main flex" id="chefs">
+        <h2>Our Professional <span>Chefs</span></h2>
+        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae
+          autem.</p>
+        <div class="flex chefs">
+          <div ><img src="./img/chefs/chefs-1.jpg" alt="">
+            <div class="chef-detail flex">
+              <p>Walter White</p>
+              <span>Master Chef</span>
+              <div><i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i></div>
+            </div>
+          </div>
+          <div><img src="./img/chefs/chefs-2.jpg" alt="">
+            <div class="chef-detail flex">
+              <p>Sarah Johnson</p>
+              <span>Passier</span>
+              <div><i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i></div>
+            </div>
+          </div>
+          <div><img src="./img/chefs/chefs-3.jpg" alt="">
+            <div class="chef-detail flex">
+              <p>William Anderson</p>
+              <span>Cook</span>
+              <div><i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="testomonial flex" id="testomonial">
+            <img src="./img/testimonials/testimonials-1.jpg" alt="">
+            <h4>Matt Brandedn</h4>
+            <span>Freelancer</span>
+            <div>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nihil placeat blanditiis explicabo quod pariatur aliquid culpa fugiat, adipisci dolorum, veritatis reiciendis reprehenderit repellat tempora. Aut.</p>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
