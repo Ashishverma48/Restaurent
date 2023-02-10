@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Restaurent</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css">
   <script src="https://kit.fontawesome.com/f5b6191954.js" crossorigin="anonymous"></script>
 </head>
 
@@ -20,39 +21,43 @@
       <div class="home">
         <a href="#">Delicious</a>
       </div>
-      <ul class="flex">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#special">Specials</a></li>
-        <li><a href="#event">Events</a></li>
-        <li><a href="#gallary">Gallary</a></li>
-        <li><a href="#chefs">Chefs</a></li>
-        <li class="main-drop">
-          <a href="#">Drop Down <i class="fa-solid fa-angle-down"></i></a>
-          <ul class="drop flex">
-            <li><a href="#">Drop Down 1</a></li>
-            <li><a href="#">Drop Down 2</a></li>
-            <li class="drop-left">
-              <a href="#">Drop Down Down <i class="fa-solid fa-angle-right"></i></a>
-
-              <ul class="last-down">
-                <li><a href="#">Drop Down</a></li>
-                <li><a href="#">Drop Down</a></li>
-                <li><a href="#">Drop Down</a></li>
-                <li><a href="#">Drop Down</a></li>
-                <li><a href="#">Drop Down</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Drop Down 4</a></li>
-            <li><a href="#">Drop Down 5</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Contact</a></li>
-        <li>
-          <a href="#"><button>Book a table</button></a>
-        </li>
-      </ul>
+      <div class="flex menu-nav">
+        <ul class="flex nav-menu " id="nav-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#special">Specials</a></li>
+          <li><a href="#event">Events</a></li>
+          <li><a href="#gallary">Gallary</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li class="main-drop">
+            <a href="#">Drop Down <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="drop flex">
+              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li class="drop-left">
+                <a href="#">Drop Down Down <i class="fa-solid fa-angle-right"></i></a>
+  
+                <ul class="last-down">
+                  <li><a href="#">Drop Down</a></li>
+                  <li><a href="#">Drop Down</a></li>
+                  <li><a href="#">Drop Down</a></li>
+                  <li><a href="#">Drop Down</a></li>
+                  <li><a href="#">Drop Down</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+          
+        </ul>
+        <button>Book a table</button>
+      </div>
+      <div id="menu-bar">
+        <i class="fa-solid fa-bars"></i>
+      </div>
     </nav>
     <div class="content flex">
       <div class="flex">
@@ -382,9 +387,81 @@
               <i class="fa-solid fa-star"></i>
             </div>
             <p><i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nihil placeat blanditiis explicabo quod pariatur aliquid culpa fugiat, adipisci dolorum, veritatis reiciendis reprehenderit repellat tempora. Aut.</p>
+            <div class="circle">
+              <i class="fa-solid fa-circle"></i>
+              <i class="fa-solid fa-circle"></i>
+              <i class="fa-solid fa-circle"></i>
+              <i class="fa-solid fa-circle"></i>
+              <i class="fa-solid fa-circle"></i>
+            </div>
+      </div>
+    </section>
+    <section>
+      <div class="contact flex">
+        <h2><span>Contact</span> Us</h2>
+        <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63607.4174712823!2d77.28764591115396!3d28.57593851630058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce45b7e24b733%3A0xb8dd905f45fbfcd5!2sSector%2016%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1675968395830!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+      <div class="container cont-detail">
+        <div>
+          <div>
+            <div><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Location:</h4>
+              <p>A108 Adam Street
+                New Delhi, 535022</p>
+            </div>
+          </div>
+          <div>
+            <div><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4>Open Hours:</h4>
+              <p>Monday-Saturday:
+                11:00 AM - 23:00 PM</p>
+            </div>
+          </div>
+          <div>
+            <div><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>Email:</h4>
+              <p>info@example.com
+                contact@example.com</p>
+            </div>
+          </div>
+          <div>
+            <div><i class="fa-solid fa-mobile"></i></div>
+            <div><h4>Call:</h4>
+            <p>+91 95890 44444
+              +91 95892 24754</p></div>
+          </div>
+        </div>
+        <div>
+          <form action="" class="flex contact-form">
+            <div>
+              <input type="text" name="name" id="" placeholder="Your Name">
+              <input type="email" name="Email" id="" placeholder="Your Email">
+            </div>
+            <input type="text" name="sunject" id="" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="7" placeholder="Massgae"></textarea>
+            <button>Send Massage</button>
+          </form>
+        </div>
       </div>
     </section>
   </main>
-</body>
+  <footer>
+    <h2>Delicious</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem incidunt aliquid temporibus placeat quos?\</p>
+    <div>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-skype"></i>
+    </div>
+    <p>© Copyright <b> Delicious </b>  All Rights Reserved</->
+  </footer>
+</body> 
 
 </html>
+<script src="./js/index.js"></script>
