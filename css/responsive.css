@@ -256,6 +256,10 @@
     }
 
     /*MENU SECTION*/
+
+    .menu{
+        padding: 0;
+    }
     .menu-box>div>p{
         font-size: 3VW;
     }
