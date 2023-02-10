@@ -218,7 +218,9 @@
     h3{
         font-size: 5vw;
     }
-
+    li{
+        font-size: 2vw;
+    }
     .container{
         padding: 3vw;
     }
@@ -239,9 +241,15 @@
     /*NAV SECTION*/
     nav{
         padding: 1vw;
+        top: 4%;
     }
     .content>div{
         width: 90%;
+    }
+
+    .content button{
+        padding: 3vw;
+        font-size: 3vw;
     }
 
     /*MENU SECTION*/
