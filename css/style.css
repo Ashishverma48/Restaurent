@@ -50,8 +50,8 @@ header{
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-color: rgba(0, 0, 0, 0.393);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
 }
 header>ul{
@@ -65,21 +65,27 @@ header>ul i{
     color: #f1ac45;
 }
 nav{
-    background-color: 
-    #1a1715e0;
+   
     justify-content: space-between;
     padding: .9rem 5vw ;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 8%;
     width: 100%;
+    transition: .3s ease-in;
     z-index: 99;
     
-    
+}
+.scroll{
+    transition: .3s ease-in;
+    position: fixed;
+    top: 0;
+    background-color: 
+    #1a1715e0;
 }
 #menu-bar{
     /* background-color: #9f6103; */
     color: white;
-    /* display: none; */
+    display: none;
     position: absolute;
     right: 20px;
     margin-left: 3rem;
@@ -92,12 +98,13 @@ nav .menu-nav{
     
     
 }
-nav>div>ul a{
+nav>div ul a{
     transition: .1s ease-in-out;
     padding: 1.6rem 1rem;
+    
 
 }
-nav>ul a:hover{
+nav>div ul a:hover{
     color: #ffb03b;
 }
 .home{
@@ -199,7 +206,7 @@ nav button:hover{
 .content{
     /* border: 2px solid; */
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 20vh;
 
 }
 .content>div{
@@ -214,6 +221,9 @@ nav button:hover{
     color: white;
     font-family: 'Satisfy', cursive;
     animation: h2 .5s ease-in;
+}
+.content h1 span{
+    color: #fcaa2f;
 }
 @keyframes h2{
     0%{
@@ -372,7 +382,11 @@ nav button:hover{
 .menu>h2>span{
     color: #f1ac45  ;
 }
-
+.btn{
+    flex-wrap: wrap;
+    row-gap: 3vh;
+    justify-content: center;
+}
 .btn button{ 
     padding: .4rem 1rem;
     border-radius: 50px;
@@ -504,7 +518,7 @@ nav button:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.71);
+    background-color: rgba(0, 0, 0, 0.781);
     background-blend-mode: overlay;
     
 }
@@ -574,9 +588,8 @@ nav button:hover{
     gap: 4vh;
     width: 100%;
 }
-
-.table>h2{
-   
+.table>p{
+    text-align: center;
 }
 .table>h2>span{
     color: #f1ac45;
@@ -883,6 +896,7 @@ textarea:focus{
     width: 100%;
     gap: 3vw;
     display: flex;
+    flex-wrap: wrap;
 }
 .contact-form input{
     width: 100%;
