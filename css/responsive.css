@@ -133,6 +133,9 @@
         color: white;
         border-right: none;
     }
+    .special>p{
+        width: 90%;
+    }
 
     /*EVENT SECTION*/
     .event-main{
