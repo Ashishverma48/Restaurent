@@ -1,0 +1,202 @@
+@media screen and (max-width: 768px){
+    header{
+        overflow: hidden;
+    }
+    p{
+        font-size: 1.9vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    h3{
+        font-size: 3vw;
+    }
+    .container{
+        padding: 9vw;
+    }
+
+    /*NAV SECTION*/
+
+
+
+
+    .nav-menu{
+        /* flex-direction: column; */
+        position: absolute;
+        display: block;
+        /* display: none; */
+        right: -30vw;
+        text-align: center;
+        top: 100%;
+        gap:3vh;
+        width: 25%;
+        transition: .2s linear;
+
+
+    }
+    .nav-menu.active{
+       right: 0;
+    }
+    .nav-menu li{
+        padding: .6vw;
+        background-color: rgba(0, 0, 0, 0.315);
+    }
+    nav{
+        padding: 3vh 3vw;
+    }
+    #menu-bar{
+        display: block;
+    }
+    nav button{
+        margin-right: 4rem;
+        font-size: 2vw;
+        padding: 1.4vh 2vw;
+    }
+    .drop{
+        /* right:0; */
+        left: -22vw;
+        top: 0;
+       width: auto;
+        animation: all .2s;
+        z-index: -1;
+    }
+    .drop li{
+        padding: .4vw;
+        width: 100px;
+    }
+    .drop li a{
+
+    }
+    .main-drop:hover .drop{
+        gap: 1vh;
+       
+    }
+    .main-drop{
+       
+        height: fit-content;
+    }
+    @keyframes all{
+        0%{
+            transform: translateY(-10px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+  
+
+    /* ABOUT SECTION*/
+    .about{
+        overflow: hidden;
+        padding: 5vw 0;
+    }
+    .about>div{
+        width: 100%;
+    }
+    .about img{
+        width: 240%;
+    }
+
+    /*WHY CHOOSE SECTION*/
+
+    .why-choose>div>div{
+        width: 100%;
+    }
+    .why-choose>p{
+        width: 90%;
+    }
+
+    /*MENU SECTION*/
+
+    .menu-box>div{
+        width: 99%;
+    }
+
+    /*SPECIAL DETAILS*/
+
+    .spl-detail>div{
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    .spl-detail>:nth-child(2){
+        width: 100%;
+        padding-top: 2vw;
+    }
+    .spl-detail a:hover{
+        background-color:  #ec8c54;
+        color: white;
+        border-right: none;
+    }
+
+    /*EVENT SECTION*/
+    .event-main{
+        background-attachment: scroll;
+        height: 200vh;
+    }
+    .event>div>div{
+        width: 100%;
+        border: 2px solid;
+    }
+    
+    /*BOOK TABLE*/
+
+    .table-form input{
+        width: 48%;
+    }
+
+    /*GALLARY*/
+
+    .gallary>div>div{
+        width: 33%;
+    }
+
+    /*CHEFS SECTION*/
+
+    .chefs-main{
+        background-attachment: scroll;
+        height: 230vh;
+
+    }
+    .chefs-main>p{
+        width: 90%;
+    }
+    .chefs{
+        gap: 1rem;
+        row-gap: 6rem;
+    }
+    .chefs>div{
+        width: calc(50% - 1rem);
+    }
+
+
+    /*TESTOMONIAL*/
+
+    .testomonial>p{
+        width: 90%;
+    }
+    .testomonial img{
+        width: 10vw;
+    }
+      /* CONTACT DETAILS*/
+
+      .cont-detail{
+        padding: 4vw 10vw;
+    }
+    .cont-detail>div>div{
+        width: 50%;
+        padding: 1vw;
+    }
+    .cont-detail p{
+       font-size: 1.6vw;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    
+}
