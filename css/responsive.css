@@ -2,6 +2,9 @@
     header{
         overflow: hidden;
     }
+    h1{
+        font-size: 4vw;
+    }
     p{
         font-size: 1.9vw;
     }
@@ -17,7 +20,9 @@
 
     /*NAV SECTION*/
 
-
+    .home a{
+        font-size: 4vw;
+    }
 
 
     .nav-menu{
@@ -54,15 +59,16 @@
     }
     .drop{
         /* right:0; */
-        left: -22vw;
-        top: 0;
-       width: auto;
+        left: -12vw;
+        top: -12vh;
+        width: auto;
         animation: all .2s;
         z-index: -1;
     }
     .drop li{
         padding: .4vw;
         width: 100px;
+        background-color: transparent;
     }
     .drop li a{
 
@@ -135,7 +141,7 @@
     }
     .event>div>div{
         width: 100%;
-        border: 2px solid;
+        /* border: 2px solid; */
     }
     
     /*BOOK TABLE*/
@@ -178,8 +184,10 @@
         width: 10vw;
     }
       /* CONTACT DETAILS*/
-
-      .cont-detail{
+    .contact>p{
+        width: 90%;
+    }
+    .cont-detail{
         padding: 4vw 10vw;
     }
     .cont-detail>div>div{
@@ -198,5 +206,111 @@
 
 
 @media screen and (max-width:480px) {
+    p{
+        font-size: 2.9vw;
+    }
+    h1{
+        font-size: 7vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    h3{
+        font-size: 5vw;
+    }
+
+    .container{
+        padding: 3vw;
+    }
+
+    /*HEADER SECTION*/
     
+    header{
+        height: 100vh;
+        background-position: center;
+    }
+    header>ul{
+        padding: 2vw;
+    }
+    .home a{
+        font-size: 5vw;
+        padding-left: 2vw;
+    }
+    /*NAV SECTION*/
+    nav{
+        padding: 1vw;
+    }
+    .content>div{
+        width: 90%;
+    }
+
+    /*MENU SECTION*/
+    .menu-box>div>p{
+        font-size: 3VW;
+    }
+      /*EVENT SECTION*/
+    .event-right>h2{
+        font-size: 5vw;
+    }
+    /* TABLE BOOK SECTION*/
+    .table{
+        padding: 10vw 3vw;
+    }
+    .table-form{
+        padding: 4vw;
+    }
+    .table-form input{
+        width:99%;
+        margin-top: 2vw;
+    }
+
+     /*GALLARY*/
+
+     .gallary>div>div{
+        width: 99%;
+    }  
+     
+    /*CHEFS SECTION*/
+
+    .chefs-main{
+        height: 400vh;
+    }
+    .chefs>div{
+        width: calc(100% - 1rem);
+    }
+
+     /*TESTOMONIAL*/
+    .testomonial{
+        background-position: center;
+    }
+     .testomonial>p{
+        /* width: 90%; */
+    }
+    .testomonial img{
+        width: 25vw;
+    }
+    .testomonial>span{
+        font-size: 2.4vw;
+    }
+    .circle>i{
+        font-size: 3vw;
+    }
+    
+    /*CONATCT SECTION*/
+    .cont-detail>div>div{
+        width: 100%;
+        padding: 1vw;
+    }
+    .cont-detail p{
+        width: 100%;
+        font-size: 3vw;
+    }
+    .cont-detail i{
+        height: 30px;
+        width: 30px;
+        font-size: 3vw;
+    }
+
+
+
 }
