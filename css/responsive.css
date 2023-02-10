@@ -273,7 +273,8 @@
     /*CHEFS SECTION*/
 
     .chefs-main{
-        height: 400vh;
+        height: fit-content;
+        padding: 23vw 0;
     }
     .chefs>div{
         width: calc(100% - 1rem);
