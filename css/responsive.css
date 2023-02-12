@@ -17,6 +17,7 @@
     .container{
         padding: 9vw;
     }
+   
 
     /*NAV SECTION*/
 
@@ -30,12 +31,15 @@
         position: absolute;
         display: block;
         /* display: none; */
-        right: -30vw;
+        right: -44vw;
         text-align: center;
-        top: 100%;
+        top: 90%;
         gap:3vh;
-        width: 25%;
+        width: 40%;
         transition: .2s linear;
+        background-color: rgba(0, 0, 0, 0.315);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
 
 
     }
@@ -43,8 +47,7 @@
        right: 0;
     }
     .nav-menu li{
-        padding: .6vw;
-        background-color: rgba(0, 0, 0, 0.315);
+        padding: 2vw;
     }
     nav{
         padding: 3vh 3vw;
@@ -58,22 +61,26 @@
         padding: 1.4vh 2vw;
     }
     .drop{
-        /* right:0; */
+        /* right:0;
         left: -12vw;
-        top: -12vh;
+        top: -12vh; */
+        position: inherit;
+        background-color: transparent;
         width: auto;
         animation: all .2s;
-        z-index: -1;
+        /* z-index: -1; */
     }
     .drop li{
-        padding: .4vw;
-        width: 100px;
+        padding:6px;
+        width: inherit;
         background-color: transparent;
+        font-size: 4vw;
     }
-    .drop li a{
-
+    .main-drop li a{
+        color: white;
     }
     .main-drop:hover .drop{
+        padding-top: 1vw;
         gap: 1vh;
        
     }
@@ -89,7 +96,15 @@
             transform: translateY(0px);
         }
     }
-  
+    .last-down{
+        position: inherit;
+        background-color: transparent;
+    }
+
+    .drop-left:hover .last-down{
+        gap: 2vw;
+    }
+    
 
     /* ABOUT SECTION*/
     .about{
@@ -200,6 +215,9 @@
     .cont-detail p{
        font-size: 1.6vw;
     }
+    .contact-form>div >input {
+        width: 100%;
+    }
 }
 
 
@@ -222,7 +240,7 @@
         font-size: 5vw;
     }
     li{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .container{
         padding: 3vw;
@@ -242,10 +260,21 @@
         padding-left: 2vw;
     }
     /*NAV SECTION*/
+    .nav-menu{
+        width: 70%;
+        right: -73vw;
+    }
+
     nav{
         padding: 1vw;
-        top: 4%;
+        top: 8vh;
     }
+    nav button{
+        font-size: 3vw;
+        padding: 1.4vh 5vw;
+    }
+
+    /*CONTENT SECTION*/
     .content>div{
         width: 90%;
     }
@@ -253,6 +282,9 @@
     .content button{
         padding: 3vw;
         font-size: 3vw;
+    }
+    nav li{
+        font-size: 4vw;
     }
 
     /*MENU SECTION*/
@@ -264,6 +296,9 @@
         font-size: 3VW;
     }
       /*EVENT SECTION*/
+      .event-main{
+        height: 150vh;
+      }
     .event-right>h2{
         font-size: 5vw;
     }
@@ -301,12 +336,13 @@
     }
      .testomonial>p{
         /* width: 90%; */
+        line-height: 1rem;
     }
     .testomonial img{
         width: 25vw;
     }
     .testomonial>span{
-        font-size: 2.4vw;
+        font-size: 3vw;
     }
     .circle>i{
         font-size: 3vw;
@@ -319,12 +355,15 @@
     }
     .cont-detail p{
         width: 100%;
-        font-size: 3vw;
+        font-size: 3.7vw;
     }
     .cont-detail i{
         height: 30px;
         width: 30px;
-        font-size: 3vw;
+        font-size: 5vw;
+    }
+    .cntact-form input{
+
     }
 
 

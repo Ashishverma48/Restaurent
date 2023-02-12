@@ -54,6 +54,9 @@ header{
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
 }
+.home a{
+    font-size: 3vw;
+}
 header>ul{
     list-style: none;
     /* margin-left: 3vw; */
@@ -898,10 +901,15 @@ textarea:focus{
     display: flex;
     flex-wrap: wrap;
 }
+
 .contact-form input{
-    width: 100%;
     padding: .7rem  ;
+    width: 100%;
     outline: none;
+}
+.contact-form>div >input{
+    width: 48%;
+
 }
 .contact-form textarea{
     width: 100%;
@@ -961,5 +969,27 @@ footer p{
 footer h2{
     color: #f1ac45;
     font-size: 4vw;
+
+}
+
+/* HOME BACK ICON*/
+#home-back{
+    /* border: 3px solid red; */
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 10PX;
+    right: 10PX;
+   display: flex;
+    transition: .4s ease;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1ac45;
+    z-index: 11;
+}
+#home-back a{
+    color: white;
+    font-size: 1.1rem;
 
 }
