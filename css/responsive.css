@@ -173,6 +173,10 @@
     .gallary>div>div{
         width: 33%;
     }
+    
+    .gallary p{
+        width: 90%;
+    }
 
     /*CHEFS SECTION*/
 
@@ -228,7 +232,7 @@
 
 @media screen and (max-width:480px) {
     p{
-        font-size: 2.9vw;
+        font-size:3.9vw;
     }
     h1{
         font-size: 7vw;
@@ -273,6 +277,10 @@
         font-size: 3vw;
         padding: 1.4vh 5vw;
     }
+    nav>div ul a {
+        
+        padding:0;
+    }
 
     /*CONTENT SECTION*/
     .content>div{
@@ -313,6 +321,9 @@
         width:99%;
         margin-top: 2vw;
     }
+    .book-table button{
+        padding: 2vw;
+    }
 
      /*GALLARY*/
 
@@ -328,6 +339,9 @@
     }
     .chefs>div{
         width: calc(100% - 1rem);
+    }
+    .chef-detail>span{
+        font-size: 2vw;
     }
 
      /*TESTOMONIAL*/
@@ -362,10 +376,13 @@
         width: 30px;
         font-size: 5vw;
     }
-    .cntact-form input{
-
+    .contact-form button{
+        padding: 2vw;
     }
-
+    /*FOTTER */
+    footer h2{
+        font-size: 6vw;
+    }
 
 
 }
