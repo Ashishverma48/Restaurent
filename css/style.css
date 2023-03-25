@@ -43,7 +43,9 @@ p{
 .container{
     padding: 2vh 6vw;
 }
-
+button{
+    cursor: pointer;
+}
 /* HEADER SECTION */
 header{
     background-image: url(../img/slide/slide-1.jpg);
