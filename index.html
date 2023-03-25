@@ -50,7 +50,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#contact_form">Contact</a></li>
           
         </ul>
         <button id="book-table">Book a table</button>
@@ -304,17 +304,17 @@
         <div class="book-table ">
           <form action="" class="table-form">
             <div>
-              <input type="text" placeholder="Your Name" name="name">
-              <input type="email" placeholder="Your Email" name="email">
-              <input type="text" placeholder="Your Phone" name="number">
+              <input readonly type="text" placeholder="Your Name" name="table_form_name">
+              <input readonly type="email" placeholder="Your Email" name="table_form_email">
+              <input readonly type="text" placeholder="Your Phone" name="table_form_number">
             </div>
             <div>
-              <input type="text" placeholder="Date" name="date">
-              <input type="text" placeholder="Time" name="time">
-              <input type="number" placeholder="# of people">
+              <input required type="text" placeholder="Date" name="date" id="date">
+              <input required type="text" placeholder="Time" name="time" id="time">
+              <input type="number" name="people_num" id="people_num" placeholder="# of people">
 
             </div>
-            <textarea name="" id="" cols="30" rows="9" placeholder="Massage" name="Massage"></textarea>
+            <textarea name="table_form_massage" id="table_form_massage" cols="30" rows="9" placeholder="Massage" name="Massage"></textarea>
             <button>Send Massage</button>
           </form>
         </div>
@@ -396,7 +396,7 @@
             </div>
       </div>
     </section>
-    <section>
+    <section id="contact_form">
       <div class="contact flex">
         <h2><span>Contact</span> Us</h2>
         <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
@@ -438,18 +438,18 @@
         <div>
           <form action="" class="flex contact-form">
             <div>
-              <input type="text" name="name" id="" placeholder="Your Name">
-              <input type="email" name="Email" id="" placeholder="Your Email">
+              <input required type="text" name="txt_name" id="" placeholder="Your Name">
+              <input type="email" name="txt_Email" id="" placeholder="Your Email">
             </div>
-            <input type="text" name="sunject" id="" placeholder="Subject">
-            <textarea name="" id="" cols="30" rows="7" placeholder="Massgae"></textarea>
+            <input type="text" name="txt_subject" id="txt_subject" placeholder="Subject">
+            <textarea name="txt_massage" id="txt_massage" cols="30" rows="7" placeholder="Massgae"></textarea>
                   <button>Send Massage</button>
           </form>
         </div>
       </div>
     </section>
     <div id="home-back">
-      <a href="./index.html">
+      <a href="#">
         <i class="fa-solid fa-arrow-up"></i>
       </a>
     </div>
